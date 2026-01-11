@@ -1,0 +1,47 @@
+body {
+  background: #0a0f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-box {
+  position: relative;
+  width: 350px;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #111;
+  color: #0afff0;
+  outline: none;
+  font-size: 18px;
+  box-shadow: 0px 0px 8px #0afff0;
+}
+
+#suggestions {
+  position: absolute;
+  width: 100%;
+  background: #111;
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px #0afff0;
+}
+
+#suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#suggestions li:hover {
+  background: #0afff0;
+  color: black;
+}
